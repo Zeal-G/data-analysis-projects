@@ -16,5 +16,23 @@ print(type(distance_to_mars_km))
 print(type(distance_to_moon_km))
 print(type(miles_per_kilo))
 # Code your solution to exercises 3 and 4 here:
-miles_to_mars = distance_to_mars_km * miles_per_kilo
+miles_to_mars = 225000000 * 0.621
+print(miles_to_mars)
+
+hours_to_mars = 139725000.0 * 17500
+print(hours_to_mars)
+
+days_to_mars = hours_to_mars * 25
+print(days_to_mars)
+
+miles_to_moon = 384400 * 0.621
+print(miles_to_moon)
+
+hours_to_moon = 238712.4 / 17500
+print(hours_to_moon)
+
+days_to_moon = 13.64070857142857 / 24
+print(days_to_moon)
+
+print(str(shuttle_name) + " will take " + str(days_to_moon) + " days to reach the Moon.")
 # Code your solution to exercise 5 here
