@@ -36,4 +36,3 @@ if crew_status != True or computer_status_code != 200 or not(space_suits_on):
    print("WARNING. Not ready")
 else:
     print("all systems go")
-# print("Yes" or "No") YES
