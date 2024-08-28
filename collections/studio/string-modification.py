@@ -3,7 +3,10 @@ my_string = "LaunchCode"
 
 # a) Use string methods to remove the first three characters from the string and add them to the end.
 
+my_string_slice = my_string[:3]
+print(my_string_slice)
 
+my_string_slice_new = my_string[3:10] + my_string_slice
 
 # Use a template literal to print the original and modified string in a descriptive phrase.
 
