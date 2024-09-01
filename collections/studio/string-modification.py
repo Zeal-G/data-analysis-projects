@@ -11,7 +11,6 @@ my_string_slice_new = my_string[3:10] + my_string_slice
 # Use a template literal to print the original and modified string in a descriptive phrase.
 
 
-
 # b) Modify your code to accept user input. Query the user to enter the number of letters that will be relocated.
 
 
