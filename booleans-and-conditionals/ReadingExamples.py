@@ -1,4 +1,12 @@
 #Data Type Practice
+x = 10
+y = 20
+print(x > y)
+print(x < y)
+print(x == y)
+print(x != y)
+#my own practice
+
 print('dog' == 'cat')
 print(3 < 4)
 print(3 > 10)
@@ -100,7 +108,7 @@ else:
       print("Clean your bathroom anyway!") 
 #correct answer in line 93
 
-word = input('Please enter a word: Dogs ')
+word = input('Please enter a word: ')
 
 if len(word) == 4:
    print("What did your mom tell you about using 4-letter words?")
@@ -110,7 +118,7 @@ else:
    else:
       print("Excellent word!") # Nested conditional example and the output was line 109
 # Nested conditional ^^
-word = input('Please enter a word: Dogs ')
+word = input('Please enter a word: ')
 
 if len(word) == 4:
    print("What did your mom tell you about using 4-letter words?")
