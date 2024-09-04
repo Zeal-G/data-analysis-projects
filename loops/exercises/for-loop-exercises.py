@@ -9,6 +9,6 @@ for num in range(3, 29, 3):
 for num in range(12, -14, -2):
     print(num)
     # d. Challenge - Print the numbers 50 - 20 in descending order, but only if the numbers are multiples of 3. (Your code should work even if you replace 50 or 20 with other numbers).
-#for num in range(50, 20, %3):
-#print(num)
+for num in range(50, 20, 3):
+print(num)
 #Could not figure out the bonus questiong

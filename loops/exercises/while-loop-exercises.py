@@ -7,7 +7,7 @@ altitude = 0
   # a. Query the user for the starting fuel level. Validate that the user enters a positive, integer value greater than 5000 but less than 30000. 
 
 #while fuel_level <= 5000 or fuel_level > 30000:
-   #fuel_level = int(input("Enter the starting fuel level: 5000"))
+   #fuel_level = int(input("Enter the starting fuel level: "))
 
 
 # b. Use a second loop to query the user for the number of astronauts (up to a maximum of 7). Validate the entry.

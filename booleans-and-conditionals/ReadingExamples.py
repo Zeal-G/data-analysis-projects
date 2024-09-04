@@ -127,3 +127,11 @@ elif len(word) < 4:
 else:
    print("Excellent word!") # Chained conditional example and got the same result as nested
 #CHAINED CONDITIONAL^^
+
+for iteration in range(42):
+   print('This is iteration number:', iteration+1)
+
+   if iteration > 4:
+      break
+
+print("The loop is done!")
