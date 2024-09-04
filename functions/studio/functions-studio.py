@@ -1,15 +1,15 @@
 # We want to COMPLETELY reverse a list by flipping the order of the entries AND flipping the order of characters in each element.
-Test_one = 'apple'
-Test_two = 'LC101'
-Test_three = 'Capitalized Letters'
-Test_four = 'I love the smell of code in the morning.'
+#Test_one = 'apple'
+#Test_two = 'LC101'
+#Test_three = 'Capitalized Letters'
+#Test_four = 'I love the smell of code in the morning.'
 
-def reverse_characters(s):
-    str = ""
-    for i in s:
-        str = i + str
-    return str
-print(reverse_characters (Test_four))
+#def reverse_characters(s):
+  #  str = ""
+  #  for i in s:
+  #      str = i + str
+  #  return str
+#print(reverse_characters (Test_four))
 
 # a) Define a 'reverse_characters' function. Give it one parameter, which will be the string to reverse.
 # b) Within the function, use the 'list' function to split a string into a list of individual characters
@@ -36,5 +36,11 @@ print(reverse_characters (Test_four))
 
 
 list_test1 = ['apple', 'potato', 'Capitalized Words']
-list_test2 = [123, 8897, 42, 1168, 8675309]
-list_test3 = ['hello', 'world', 123, 'orange']
+#list_test2 = [123, 8897, 42, 1168, 8675309]
+#list_test3 = ['hello', 'world', 123, 'orange']
+def reverse_characters(s):
+    str = ""
+    for i in s:
+        str = i + str
+    return str
+print(reverse_characters (list_test1))
