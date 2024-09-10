@@ -77,3 +77,25 @@ for iteration in range(42):
 
 print("The loop is done!")
 # How to break a loop example!
+
+flavors = ['Vanilla', 'Chocolate', 'Cookie Dough']
+toppings = ['Hot Fudge', 'Oreos', 'Marshmallows']
+for one in flavors:
+   for two in toppings:
+      print(one, 'Topped with', two)
+#example from youtube
+
+def happy_birthday(name, age):
+   print(f'Happy birthday to {name}!')
+   print(f'You are {age} years old!')
+   print('Happy Birthday to you!')
+   print()
+happy_birthday("Bro", 20)
+happy_birthday("Steve", 30)
+happy_birthday("Jo", 40)
+#example from youtube
+
+def display_invoices(username, amount, due_date):
+   print(f"Hello {username}")
+   print(f"Your bill of ${amount: .2f} is due {due_date}")
+display_invoices("Bro", 42.50, "01/01")
