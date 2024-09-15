@@ -31,6 +31,8 @@ cargo_hold[0] = 1138
 
 # Use the remove method to take the parrot out of cargo_hold, then print the updated list.
 cargo_hold.remove("parrot")
-print(cargo_hold)
+#print(cargo_hold)
 
 # Use .format() to print the final list and its length. "The list ___ contains ___ items."
+
+cargo_hold.f("The list ___ contains ___ items.")
