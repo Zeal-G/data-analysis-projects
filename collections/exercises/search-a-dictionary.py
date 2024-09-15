@@ -10,7 +10,10 @@ flavors = {
 }
 
 ## Set a variable called choice to the flavor you want to search for.
+def choice():
+  strawberry : float(0.42)
 
+  choice()
 ## Use an if statement to check if choice is in the flavors dictionary.
 
 ## If it is, set another variable called cost to the value associated with choice.
