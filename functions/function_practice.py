@@ -68,10 +68,40 @@ print("Your average mark is:", average_marks)
 grade = computer_grade(average_marks)
 print("Your grade is:", grade)
 #youtube follow along
+#book read along
+def string_repeater(a_string):
+   repeated = a_string + a_string
+   print(repeated)
 
-#collections youtube follow along
-from collections import counter
-a = "aaaabbbbcccc"
-my_counter = Counter(a)
-print(my_counter)
+string_repeater('Bob')
+#gives back BobBob
 
+def plus_two(num):
+   return num + 2
+
+a = 2
+
+for i in range(4):
+   a = plus_two(a)
+
+print(a)
+#ouput of 10
+
+def repeater(str):
+   repeated = str + str
+   print(repeated)
+
+repeater('Bob')
+#BobBob is the output
+def remove_hyphens(phone_number):
+   without_hyphens = phone_number.replace('-', '')
+   return without_hyphens
+
+phone_number = "614-555-5555"
+no_hyph_number = remove_hyphens('56-78')
+#when you attempt to run code above it does not run 
+def is_even(num): 
+   return num % 2 == 0
+
+num = 42
+print(is_even(43))
