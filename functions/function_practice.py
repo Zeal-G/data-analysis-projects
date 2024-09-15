@@ -67,3 +67,11 @@ print("Your average mark is:", average_marks)
 
 grade = computer_grade(average_marks)
 print("Your grade is:", grade)
+#youtube follow along
+
+#collections youtube follow along
+from collections import counter
+a = "aaaabbbbcccc"
+my_counter = Counter(a)
+print(my_counter)
+
